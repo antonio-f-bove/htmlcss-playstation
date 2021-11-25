@@ -1,0 +1,44 @@
+img {
+  width: 100%;
+}
+
+/* colors & themes */
+._bg-black {
+  background-color: #000;
+  color: #fff;;
+}
+._bg-grey {
+  background-color: #242424;
+  color: #fff;;
+}
+
+/* jumbotron banner */
+#returnal-jumbo ._banner {
+  background: url(../img/jumbo-bg.png) 50% 50%;
+  background-size: cover;
+  height: 500px;
+}
+
+#returnal-jumbo ._banner-content {
+  width: 33%;
+}
+#returnal-jumbo ._banner-content img {
+  width: 70%;
+}
+
+/* custom button */
+._bttn {
+
+}
+._bttn._bttn-orange {
+  background-color: rgb(191, 41, 15);
+  color: #fff;
+}
+/* ._bttn._bttn-orange {
+  background-color: rgb(191, 41, 15);
+  color: #fff;
+}
+._bttn._bttn-orange {
+  background-color: rgb(191, 41, 15);
+  color: #fff;
+} */
