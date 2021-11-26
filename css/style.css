@@ -12,33 +12,68 @@ img {
   color: #fff;;
 }
 
+/* utility */
+._grey-text-block {
+  color: #777;
+  font-size: 26px;
+}
+
+
+/* banner general classes */
+._banner ._banner-content {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+._banner-content img {
+  width: 50%;
+}
+
 /* jumbotron banner */
 #returnal-jumbo ._banner {
-  background: url(../img/jumbo-bg.png) 50% 50%;
+  background: url(../img/jumbo-bg.png) 50% 70%;
   background-size: cover;
-  height: 500px;
 }
 
-#returnal-jumbo ._banner-content {
-  width: 33%;
+/* ps5 */
+#ps5 ._blue-sub-title {
+  color: lightseagreen;
 }
-#returnal-jumbo ._banner-content img {
-  width: 70%;
+
+#ps5 ._text-container {
+  padding: 30px 0;
 }
+@media screen and (min-width: 768px) {
+  #ps5 ._text-container {
+    padding: 100px 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  #ps5 ._text-container {
+    padding: 150px 0;
+  }
+}
+
+/* it takes two banner */
+#itTakesTwo ._banner {
+  background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50% 50%;
+  background-size: cover;
+}
+
 
 /* custom button */
-._bttn {
+._button {
 
 }
-._bttn._bttn-orange {
+._button._button-orange {
   background-color: rgb(191, 41, 15);
   color: #fff;
 }
-/* ._bttn._bttn-orange {
+/* ._button._button-orange {
   background-color: rgb(191, 41, 15);
   color: #fff;
 }
-._bttn._bttn-orange {
+._button._button-orange {
   background-color: rgb(191, 41, 15);
   color: #fff;
 } */
