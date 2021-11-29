@@ -11,6 +11,10 @@
   background-color: rgb(176, 174, 173);
   color: #000;
 }
+._bg-dark-blue {
+  background-color: rgb(17, 21, 45);
+  color: #fff;
+}
 
 /* utility */
 ._grey-text-block {
@@ -34,6 +38,10 @@
 ._btn-grey {
   background-color: rgb(208, 209, 212);
   color: blue;
+}
+._btn-white {
+  background-color: #fff;
+  color: #000;
 }
 
 
