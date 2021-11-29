@@ -7,11 +7,15 @@
   background-color: #242424;
   color: #fff;;
 }
+._bg-light-grey {
+  background-color: rgb(176, 174, 173);
+  color: #000;
+}
 
 /* utility */
 ._grey-text-block {
   color: #777;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 /* custom button */
@@ -26,6 +30,10 @@
 ._btn-blue {
   background-color: rgb(35, 74, 223);
   color: #fff;
+}
+._btn-grey {
+  background-color: rgb(208, 209, 212);
+  color: blue;
 }
 
 
@@ -109,3 +117,9 @@
 #nuoveUscite ._game-item {
   margin-bottom: 36px;
 }
+
+/* ps now */
+._cta img {
+  width: 60%;
+}
+
