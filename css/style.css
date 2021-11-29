@@ -101,5 +101,11 @@
   background-size: cover;
 }
 
+/* nuove uscite */
+#nuoveUscite ._game-item img {
+  border-radius: 20px;
+}
 
-
+#nuoveUscite ._game-item {
+  margin-bottom: 36px;
+}
