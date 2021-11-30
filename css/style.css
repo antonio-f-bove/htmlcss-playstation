@@ -131,3 +131,7 @@
   width: 60%;
 }
 
+/* social */
+#social ._container {
+  max-width: 540px;
+}
